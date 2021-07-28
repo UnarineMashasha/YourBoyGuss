@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="shortcut icon" href="assets/img/GekoState.jpeg" type="image/png">
+    
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    
+        <title>GekoState</title>
+    </head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo__img">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">IT Solutions</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="service/service.html" class="nav__link">IT Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="AboutUs/about.html" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+        </nav>
+    </header>
+    <main id="contact-main">
+        <form action="mail.php" method="POST" class="contact">
+            <h2>Contact Us</h2>
+            <div class="layer">
+                <span>
+                    <label class="name">Full Name:</label>
+                    <input type="text" name="name"  placeholder="Your name...." required>
+                </span>
+               
+                <span>
+                    <label class="name">Email Address:</label>
+                    <input type="email" name="email" placeholder="Your E-mail Address...." required>
+                </span>
+               
+            </div>
+            
+            <div class="layer">
+                <span>
+                    <label class="name">Company:</label>
+                    <input type="text" name="company"  placeholder="Company name...." required>
+                </span>
+           
+                <span>
+                    <label class="name">Contact:</label>
+                <input type="tel" name="contact" required>
+                </span>
+            </div>
+            <div class="layer">
+                <span>
+                    <label class="name">Services:</label>
+                    <select name="services">
+                        <option>Select the services you require</option>
+                        <option>Enquiry for IT Solutions</option>
+                        <option>Enquiry for IT Services</option>
+                        <option>Enquiry for IT Security</option>
+                        <option>Become part of the team</option>
+                    </select>
+                </span>
+                <span>
+                    <label class="name">Subject:</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+                </span>
+            </div>
+        </form>
+    </main>
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Gekostate-tech</h3>
+                    <p class="footer__description">Gekostate state is a corporation based on empowering the african<br>we offer the best services,
+                        <br>experience.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">News</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Our Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 All rigths reserved. created by GekoState</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
